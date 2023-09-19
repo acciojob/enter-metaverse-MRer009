@@ -1,5 +1,9 @@
-const button = document.getElementById("enterbtn");
-const pera = document.getElementById("status");
-button.addEventListener("click" , () => {
-	pera.innerHTML = "<h1>Entered Metaverse</h1>";
-})
+let status = document.getElementById('status');
+let enterBtn = document.getElementById('enterBtn');
+enterBtn.addEventListener('click', () => {
+	status.innerHTML = "<h1>Entered Metaverse</h1>";
+});
+
+// enterBtn.addEventListener('click', function() {
+//     status.innerHTML = "<h1>Entered Metaverse</h1>";
+// });
